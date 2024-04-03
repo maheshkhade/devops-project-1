@@ -21,5 +21,6 @@ commands to build docker container
 login to docker if you have not logged in.
 
 `docker build -t <useraccount/image-name> .`
+
 `docker push <useraccount/image-name>`
 
