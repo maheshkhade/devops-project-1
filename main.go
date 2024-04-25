@@ -21,5 +21,5 @@ func main() {
 
 func home(w http.ResponseWriter, r *http.Request) {
 	log.Println("Home Hit")
-	fmt.Fprintf(w, "This is a home page")
+	fmt.Fprintf(w, "This is a home page 25 Apr")
 }
