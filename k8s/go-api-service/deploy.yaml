@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mk
+  name: mk
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mk
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mk
+    spec:
+      containers:
+      - image: "maheshkhade8600/go-api-server:new"
+        name: go-api-server
+        resources: {}
+status: {}
