@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: "maheshkhade8600/go-api-server"
+  repository: "maheshkhade8600/go-api-service"
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
